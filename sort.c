@@ -5,7 +5,7 @@
 #include "team_generator.h"
 
 bool goes_before(player x, player y){
-    return x.id <= y.id;
+    return x.id < y.id;
 }
 
 void swap(player a[], uint i, uint j) {

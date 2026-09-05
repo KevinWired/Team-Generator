@@ -11,8 +11,7 @@ typedef struct player_t {
     char username[NAME_MAX_SIZE];
 } player;
 
-// Genera un numero psudo-aleatorio dentro del rango [0 100].
-uint pseudo_random_number_generator();
+uint pseudo_random_number_generator(); // Genera un numero psudo-aleatorio dentro del 0 al 100.
 
 void line_spacing();
 
